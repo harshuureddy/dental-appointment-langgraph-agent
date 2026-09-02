@@ -666,17 +666,5 @@ This project is intended for educational and portfolio purposes.
 
 ```
 
-### One important correction from your old README
-
-Delete this claim:
-
-> “The system uses a supervisor agent that intelligently routes user requests to specialized agents.”
-
-Your **current working code** is a LangGraph **ReAct agent with multiple tools**, based on the `create_react_agent(...)` code you showed me. Calling it a supervisor-based multi-agent architecture during an interview could lead the interviewer to ask where the supervisor graph and agent-to-agent routing occur.
-
-What you actually built is still very good for a fresher project:
-
 **`OpenAI LLM + LangGraph ReAct agent + tool calling + conversational state + CSV CRUD operations + business-rule validation.`**
-
-That is the version I would put on GitHub and explain in interviews.
 ```
