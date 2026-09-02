@@ -1,6 +1,4 @@
-Yes. Since your **actual working version is now LangGraph + OpenAI**, I would also correct one important thing in the README: your current working `agent.py` uses `create_react_agent()` with tools. So calling the current implementation a **supervisor-based multi-agent system** would be misleading unless those supervisor/specialized-agent files are actually being executed.
 
-For GitHub/interviews, use this README—it matches the project you just successfully tested.
 
 ````markdown
 # 🦷 Dental Appointment Management System
